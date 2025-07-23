@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <header class="top-nav">
+        <div class="nav-left">
+            <a href="#" class="logo-link">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+                  alt="LinkedIn Logo"
+                  class="logo"
+                />
+            </a>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+
+
+        <nav class="nav-center">
+            <a href="#" class="nav-item active" title="Home">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item" title="My Network">
+                <i class="fa-solid fa-user-group"></i>
+                <span>My Network</span>
+            </a>
+            <a href="#" class="nav-item" title="Jobs">
+                <i class="fa-solid fa-briefcase"></i>
+                <span>Jobs</span>
+            </a>
+            <a href="#" class="nav-item" title="Messaging">
+                <i class="fa-solid fa-comment-dots"></i>
+                <span>Messaging</span>
+            </a>
+            <a href="#" class="nav-item" title="Notifications">
+                <i class="fa-solid fa-bell"></i>
+                <span>Notifications</span>
+            </a>
+        </nav>
+
+
+        <div class="nav-right">
+            <a href="#" class="profile-link" title="Me">
+                <i class="fa-solid fa-circle-user profile-icon"></i>
+                <span>Me</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+            <a href="#" class="nav-item" title="Work">
+                <i class="fa-solid fa-th"></i>
+                <span>Work</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <aside class="left-sidebar">
+            <div class="profile-card">
+                <div class="profile-bg"></div>
+                <div class="profile-photo">
+                    <i class="fa-solid fa-circle-user"></i>
+                </div>
+                <h2 class="profile-name">Ujjawal Ghosh</h2>
+                <p class="profile-headline">Full stack developer | Tech Enthusiast | building Responsive UIs </p>
+                <a href="#" class="profile-view">View Profile</a>
+            </div>
+
+
+            <div class="connections-card">
+                <h3>Connections</h3>
+                <p>Grow your network</p>
+                <a href="#" class="connections-link">See all connections</a>
+            </div>
+
+
+            <div class="tools-card">
+                <h3>Access exclusive tools & insights</h3>
+                <a href="#">My Premium</a>
+                <a href="#">My Learning</a>
+            </div>
+
+
+            <div class="items-card">
+                <a href="#"><i class="fa-solid fa-bookmark"></i> Saved items</a>
+                <a href="#"><i class="fa-solid fa-users"></i> Groups</a>
+                <a href="#"><i class="fa-solid fa-newspaper"></i> Newsletters</a>
+                <a href="#"><i class="fa-solid fa-calendar-day"></i> Events</a>
+            </div>
+        </aside>
+
+        <section class="feed">
+            <div class="post-creator">
+                <div class="post-creator-left">
+                    <i class="fa-solid fa-circle-user user-icon"></i>
+                    <input type="text" placeholder="Start a post" />
+                </div>
+                <div class="post-creator-right">
+                    <button class="post-btn">Post</button>
+                </div>
+            </div>
+
+            <article class="post">
+                <header class="post-header">
+                    <i class="fa-solid fa-circle-user user-icon"></i>
+                    <div class="post-user-info">
+                        <h4>Andreas Horn
+                            <i class="fa-solid fa-circle-check"></i> 
+                        </h4>
+                        <p>Product Manager at Company</p>
+                        <time datetime="2025-07-22">2h ago</time>
+                    </div>
+                </header>
+                <div class="post-content">
+                    <p>Excited to share my latest project!</p>
+                    <img src="Screenshot 2025-07-22 175419.png" alt="Project Image" />
+                </div>
+                <footer class="post-footer">
+                    <button><i class="fa-regular fa-thumbs-up"></i> Like</button>
+                    <button><i class="fa-regular fa-comment"></i> Comment</button>
+                    <button><i class="fa-solid fa-share"></i> Share</button>
+                </footer>
+            </article>
+
+            <article class="post">
+                <div class="post-content">
+                    <p>Check out this cool design concept.</p>
+                    <img src="Screenshot 2025-07-22 175631.png" alt="Design Image" />
+                </div><hr>
+
+                <footer class="post-footer">
+                    <button><i class="fa-regular fa-thumbs-up"></i> Like</button>
+                    <button><i class="fa-regular fa-comment"></i> Comment</button>
+                    <button><i class="fa-solid fa-share"></i> Share</button>
+                </footer>
+
+
+                <div class="post-content">
+                    <img src="Screenshot 2025-07-22 175657.png" />
+                </div>
+
+                <div class="post-content">
+                    <img src="Screenshot 2025-07-22 175735.png" />
+                </div>
+
+                <div class="post-content">
+                    <img src="Screenshot 2025-07-22 175833.png" />
+                </div>
+
+
+                <div class="post-content">
+                    <img src="Screenshot 2025-07-22 175858.png" />
+                </div>
+
+
+                <div class="post-content">
+                    <img src="Screenshot 2025-07-22 175552.png" />
+                </div>
+
+            </article>
+        </section>
+
+
+
+        <aside class="right-sidebar">
+            <div class="right-card">
+                <h3>Add to your feed</h3>
+                <ul>
+                    <li><a href="#">Tech News</a></li>
+                    <li><a href="#">Business Insights</a></li>
+                    <li><a href="#">Career Advice</a></li>
+                </ul>
+            </div>
+            <div class="right-card">
+                <h3>Events</h3>
+                <a href="#">See all events</a>
+            </div>
+            <div class="right-card">
+                <h3>Followed Hashtags</h3>
+                <ul>
+                    <li><a href="#">#technology</a></li>
+                    <li><a href="#">#design</a></li>
+                    <li><a href="#">#careers</a></li>
+                </ul>
+            </div>
+
+            <div class="linkedinadds_card">
+                <img src="Screenshot 2025-07-23 155052.png" alt="LinkedIn Ad" width="276px" />
+            </div>
+               
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2025 LinkedIn Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
